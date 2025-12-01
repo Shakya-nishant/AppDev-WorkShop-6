@@ -47,10 +47,6 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("=".PadRight(50, '='));
-            Console.WriteLine("=".PadRight(50, '='));
-
-
             Console.WriteLine("\n1. Supermarket Cashier Sales Report");
             var cashierList = new List<CashierSales>
             {
